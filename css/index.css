@@ -59,11 +59,16 @@ html {
 
 }
 
+/* start button */
 .entry-logo {
     margin-bottom: 20px;
     width: 98%;
     max-width: 500px;
     height: auto;
+}
+
+.hero-image {
+    margin-bottom: 100px;
 }
 
 .selection-logo {
@@ -90,6 +95,13 @@ html {
     z-index: 1000;
 
 }
+
+
+/* -----arrow icon------ */
+.handarrow {
+    height: 20px;
+}
+
 
 .header {
     padding: 8px;
@@ -611,7 +623,7 @@ margin: 70px auto; */
 }
 @media screen and (min-height: 750px){
     .gamescreen-body{
-        /* overflow-y: hidden; */
+        overflow-y: hidden;
     }
 }
 
