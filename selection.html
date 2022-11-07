@@ -4,32 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Yo'self</title>
+    <title>GECOMTECH</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/q.png">
+    <link rel="icon" href="images/icon.png">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header class="header">
-        <a href="index.html" class="active back-selection">Home &#10558;</a>
+        <a href="index.html" class="active back-selection">Back to Home  <img class="handarrow" src="images/handarrow.png"></a>
     </header>
     <div class="wrapper">
         <main class="selection-wrapper">
-            <img src="images/quizyo-1.png" class="selection-logo">
+            <img src="images/title.png" class="selection-logo">
             <div class="selection">
                 <h1 class="selection-menu-header"></h1>
                 <form id="selection-menu" class="selection-menu">
                     <label>
-                        <p class="text-pad">Category:</p>
+                        <p class="text-pad">Topic:</p>
                         <select id="category" class="category" value="category">
-                            <option value="">Any Category</option>
+                            <option value="">Choose Topic</option>
                         </select>
                     </label>
                     <label>
-                        <p class="text-pad">Difficulty:</p>
+                        <p class="text-pad">Difficulty Level:</p>
                         <select id="difficulty" class="difficulty">
-                            <option value = "">Any Difficulty</option>
+                            <option value = "">Choose Difficulty</option>
                         </select>
                     </label>
                     
@@ -38,15 +38,15 @@
                     <label>
                         <!-- <p class="text-pad">Number of Questions:</p>
                     <label > -->
-                        <p id="numQuestions" class="text-pad">Number of Questions:*</p>
+                        <p id="numQuestions" class="text-pad">How Many Questions?</p>
                         <select id="questionNum" class="questionNum"> 
-                            <option value="" required>Select Number</option>
+                            <option value="" required>Choose number of question</option>
                         </select>
                     </label>
                 </form>
             </div>
             <div id='submitForm' class="play-game">
-                GAME ON!
+                PLAY!
             </div>
             </form>
                 <audio  id="music">
