@@ -66,6 +66,10 @@ html {
     max-width: 500px;
     height: auto;
 }
+.school-logo {
+    margin-top: -70px;
+}
+
 
 .hero-image {
     margin-bottom: 100px;
@@ -358,6 +362,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
+    
     /* justify-content: center; */
     /* align-items: center; */
     /* margin: 0 auto;  */
