@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', () =>{
     myMusic.autoplay = true;
     if(myMusic.autoplay){
         myMusic.load()
-        myMusic.play()
         console.log(myMusic.autoplay)
     }
         
