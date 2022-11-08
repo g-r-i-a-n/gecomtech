@@ -6,13 +6,12 @@ html {
     font-size: 16px;
     box-sizing: border-box;
     font-family: 'Noto Sans TC', sans-serif;
-    background-color: #428CD4;
+    background: aqua;
 }
 
 
 
 body {
-    background: #efefef;
     margin: 0;
 }
 
@@ -23,7 +22,6 @@ body::-webkit-scrollbar {
 
 
 body {
-    background: #efefef;
     margin: 0;
 }
 
@@ -76,8 +74,7 @@ h1 {
     padding-top: 80px;
     width: 100%;
     height: auto;
-    background: #69f7fc;
-  
+    margin-bottom: 80px;
     align-items: center;
 }
 
@@ -162,9 +159,10 @@ h1 {
     font-weight: 20px;
     font-size: large;
     font-weight: bold;
+    text-decoration: line-through;
 }
 .github:hover {
-    color: #0644fe;
+    color: #fe1706;
     transition: .3s;
 }
 
@@ -189,6 +187,7 @@ h1 {
     color: #0040ff;
     font-size: 13px;
     font-style: italic;
+    text-decoration: underline;
 }
 
 .handarrow {
@@ -219,6 +218,26 @@ a {
 
 .copyright {
     padding: 0px;
+    text-decoration: underline;
+ 
+}
+
+/* -----for languages----- */
+.new-lesson.language {
+     background: red;
+}
+.lesson {
+    color: #537efd;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.language {
+    color: #fe1706;
+    text-decoration: underline;
+
+}
+.codecademy {
+    width: 40px;
 }
 
 
@@ -234,7 +253,7 @@ a {
 }
 }
 
-/* @media screen and (min-width: 640px) {
+@media screen and (min-width: 640px) {
     .active {
         padding: 32px;
         list-style: none; 
@@ -247,10 +266,9 @@ a {
         padding-top: 80px;
         width: 100%;
         height: auto;
-        background: #efefef;
-      
         align-items: center;
-    } */
+        margin-bottom: 20px;
+    }
 
 
 @media screen and (min-width: 960px) {
@@ -261,15 +279,13 @@ a {
     }
 
     .creators-wrapper { 
-        color: #464345;
-        margin: 32px 0;
         padding-top: 80px;
         width: 100%;
         height: auto;
-        background: #efefef;
-      
         align-items: center;
+        padding-bottom: 20px;
+        
     }
 }
-
+}
 
