@@ -7,7 +7,7 @@
 #
 # How to use my quiz game application!
 * Click start for the next page of the app, which shows the selection  page
-<img src="images/firstvideo.mp4">
+<img src="images/first.jpg">
 
 #
 * If you want to show my profile click the profile text below the start button in front page of the game
