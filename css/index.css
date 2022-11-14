@@ -67,7 +67,7 @@ html {
     height: auto;
 }
 .school-logo {
-    margin-top: -70px;
+    margin-top: -100px;
 }
 
 
@@ -239,7 +239,7 @@ label {
 }
 
 .text-pad {
-    margin-top: 12px;
+    margin-top: 18px;
     /* margin-bottom: px; */
     font-weight: bold;
     font-size: 15px;
