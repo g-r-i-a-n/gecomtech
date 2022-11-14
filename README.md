@@ -19,7 +19,6 @@
 #
 
 * Here is the the selection page which you can choose topic what you want to take
-* There are many topic that related to Computer technology
 * Here is the Difficulty level of the quiz
 * here is the number of question you want to take with the available number of 1 to 15 choices
 * Click play to for the game screen
