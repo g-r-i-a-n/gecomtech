@@ -1,0 +1,153 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    height: 30px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+/* ------header page layout----- */
+.helptext {
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    color: bisque;
+    font-style: oblique;
+    margin-top: 30%;
+}
+
+.help {
+    margin-top: 10px;
+}
+
+.help-logo {
+    align-items: center;
+    width: 90px;
+    margin-top: 10px;
+
+}
+
+.heading {
+    background-color: #2e3032;
+    margin: 0 auto 8px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    margin: 0 auto;
+    padding: 8px;
+    color: #004E9A
+}
+
+
+.helps {
+    color: #efefef;
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 4px;
+    margin: 0 auto;
+}
+
+.helps li {
+    padding-top: 4px;
+    list-style: none; 
+    color:#b39595;
+}
+
+.helps ul li:hover {
+    color: #efefef;
+}
+
+.helps ul {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+
+.helps ul li:hover {
+    text-decoration: none;
+    color: #efefef;
+}
+
+
+.helps ul li:visited {
+    text-decoration: none;
+    color: #efefef;
+}
+
+
+.helptext:hover {
+    color: #efefef;
+}
+
+.helptext {
+    padding: 5px;
+    list-style: none; 
+    color:#efefef;
+}
+
+
+
+/* -------celphone screen type------- */
+@media screen and (min-width: 320px) {
+    .active {
+        padding: 16px;
+        list-style: none; 
+        color:#efefef;
+    }
+    .text {
+        padding: 16px;
+        margin: 0 8px;
+    }
+    }
+    
+    
+    
+    @media screen and (min-width: 960px) {
+        .active {
+            padding: 32px;
+            list-style: none; 
+            color:#efefef;
+        }
+    
+        .creators-wrapper { 
+            color: #464345;
+            margin: 32px 0;
+            padding-top: 80px;
+            width: 100%;
+            height: auto;
+            background: #efefef;
+          
+            align-items: center;
+        }
+    }
+    /* @media screen and (min-width: 640px) {
+    .active {
+        padding: 32px;
+        list-style: none; 
+        color:#464345;
+    }
+
+    .creators-wrapper { 
+        color: #464345;
+        margin: 32px 0;
+        padding-top: 80px;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    } */
